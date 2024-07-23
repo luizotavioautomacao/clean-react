@@ -37,7 +37,7 @@ module.exports = merge(common, {
   },
   plugins: [
     new DefinePlugin({
-      'process.env.API_URL': JSON.stringify('http://fordevs.herokuapp.com/api')
+      'process.env.API_URL': JSON.stringify('http://gotech.education:443/api')
     }),
     new HtmlWebpackPlugin({
       template: './template.dev.html'
